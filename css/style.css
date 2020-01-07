@@ -10,6 +10,7 @@ html {
     line-height: 1.5;
     background: #F2F2F2;
     color: #323232;
+    
   }
   
   img {
@@ -37,8 +38,17 @@ html {
     max-width: 960px;
     margin: 40px auto;
     padding: 32px;
-    background: white;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  .container{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90vh;
   }
   
   section {
@@ -69,6 +79,8 @@ html {
   .my-name {
     font-size: 48px;
     line-height: 1;
+    background-color: #323232;
+    color: #F2F2F2;
   }
   
   .my-title {
