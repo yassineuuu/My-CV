@@ -77,10 +77,11 @@ html {
   }
   
   .my-name {
+    text-align: center;
     font-size: 48px;
     line-height: 1;
     background-color: #323232;
-    width: 105%;
+    width: 100%;
     color: #F2F2F2;
   }
   
