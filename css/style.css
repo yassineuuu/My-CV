@@ -124,7 +124,10 @@ html {
     margin-bottom: 20px;
     font-size: 18px;
   }
-  
+  .job-title{
+    margin-left: 20px;
+  }
+ 
   .job-company {
     font-weight: bold;
     line-height: 1.2;
@@ -143,6 +146,10 @@ html {
   
   .skills-container ul {
     margin-left: 20px;
+    list-style-type: disc;
+  }
+  .EXP ul{
+    margin-left: 40px;
     list-style-type: disc;
   }
   
