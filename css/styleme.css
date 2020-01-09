@@ -1,0 +1,63 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+}
+.me{
+    margin: 10px 0px 0px 80px;
+}
+
+.myname{
+    color: blanchedalmond;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+    background-color: rgb(49, 40, 16);
+
+    
+}
+.container{
+    border: 2px solid black;
+    margin: 350px 200px 100px 350px;
+}
+.first-title{
+    color: lightskyblue;
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+
+}
+.head{
+    display: block;
+}
+.links{
+    margin: 70px 0px 0px 0px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    
+
+}
+.div1{
+    display: inline-flex;
+}
+p{
+    width: 800px;
+    margin: 0px 0px 0px 40px
+}
+.sagma{
+    display: inline-flex;
+}
+.rafc{
+    display: inline-flex;
+}
+.youcode{
+    
+    display: -webkit-box;
+}
+.ismtr{
+    display: inline-flex;
+}
+.lycée{
+    display: inline-flex;
+}
