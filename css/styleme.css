@@ -74,3 +74,15 @@ p{
 .skills{
     display: inline-flex;
 }
+.date{
+    margin-left: 800px;
+}
+h2{
+    margin-left: 80px;
+}
+h3{
+    margin-left: 80px ;
+}
+ul{
+    margin-left: 160px;
+}
