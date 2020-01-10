@@ -1,63 +1,76 @@
+
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5;
+     background-color: darkcyan;
 }
 .me{
     margin: 10px 0px 0px 80px;
 }
 
 .myname{
+    margin: 16px;
     color: blanchedalmond;
     font-size: 48px;
     text-align: center;
     width: 100%;
     line-height: 1;
     background-color: rgb(49, 40, 16);
-
-    
+    width: 98%;
 }
 .container{
     border: 2px solid black;
-    margin: 350px 200px 100px 350px;
+    margin: 0px 0px 80px 500px;
+    margin-right: 400px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    box-shadow: 2px 4px black; 
 }
 .first-title{
     color: lightskyblue;
     font-size: 40px;
-    margin: 0px 0px 0px 0px;
-    text-align: center;
+    margin-left: 40px;
+    
 
 }
 .head{
     display: block;
 }
-.links{
+.linksdiv{
     margin: 70px 0px 0px 0px;
     font-size: 20px;
-    text-decoration: none;
-    display: inline-flex;
+    display: flex;
+    margin-left: 40px;
     
 
+}
+
+section {
+    display: flex;
+    padding: 24px 0;
+    border-bottom: 1px solid lightgrey;
+  }
+#NUM{
+    margin-left: 100px;
+}  
+a{
+    color: black;
+    text-decoration: none;
 }
 .div1{
     display: inline-flex;
 }
 p{
-    width: 800px;
-    margin: 0px 0px 0px 40px
-}
-.sagma{
-    display: inline-flex;
-}
-.rafc{
-    display: inline-flex;
-}
-.youcode{
     
-    display: -webkit-box;
+    margin: 40px 40px 0px 40px
 }
-.ismtr{
-    display: inline-flex;
+.sagma,.rafc{
+    display: block;   
 }
-.lycée{
+.youcode,.ismtr,.lycée{
+    display: block;
+}
+.skills{
     display: inline-flex;
 }
