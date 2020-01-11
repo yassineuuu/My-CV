@@ -83,6 +83,19 @@ h2{
 h3{
     margin-left: 80px ;
 }
+h4{
+    margin-left: 120px;
+}
 ul{
     margin-left: 160px;
 }
+.interests-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.interests-container img {
+    height: 35px;
+    opacity: 0.75;
+    padding: 50px;
+  }
