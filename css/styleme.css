@@ -18,14 +18,13 @@ body{
     background-color: rgb(49, 40, 16);
     width: 98%;
 }
-.container{
-    border: 2px solid black;
+main{
     margin: 0px 0px 80px 500px;
     margin-right: 400px;
     background-image: url(bg.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
-    box-shadow: 2px 4px black; 
+   
 }
 .first-title{
     color: lightskyblue;
@@ -75,7 +74,8 @@ p{
     display: inline-flex;
 }
 .date{
-    margin-left: 800px;
+    margin-left: 600px;
+    display: flex;
 }
 h2{
     margin-left: 80px;
@@ -87,15 +87,19 @@ h4{
     margin-left: 120px;
 }
 ul{
-    margin-left: 160px;
+    margin-left: 140px;
 }
 .interests-container {
     display: flex;
     justify-content: space-between;
+    margin-left: 120px;
   }
   
 .interests-container img {
     height: 35px;
     opacity: 0.75;
-    padding: 50px;
+    padding: 30px;
+  }
+  .educ{
+      margin-left: 120px;
   }
