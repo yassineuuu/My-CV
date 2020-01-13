@@ -2,7 +2,6 @@
 body{
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
-     background-color: darkcyan;
 }
 .me{
     margin: 10px 0px 0px 80px;
@@ -19,8 +18,8 @@ body{
     width: 98%;
 }
 main{
-    margin: 0px 0px 80px 500px;
-    margin-right: 400px;
+    max-width: 960px;
+    margin: 40px auto;
     background-image: url(bg.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
@@ -37,7 +36,7 @@ main{
     display: block;
 }
 .linksdiv{
-    margin: 70px 0px 0px 0px;
+    margin: 70px auto;
     font-size: 20px;
     display: flex;
     margin-left: 40px;
@@ -103,3 +102,8 @@ ul{
   .educ{
       margin-left: 120px;
   }
+  @media only screen and (max-width : 768px) {
+    section {
+      grid-template-columns: 1fr;
+    }
+  
