@@ -3,6 +3,9 @@ body{
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
 .me{
     margin: 10px 0px 0px 80px;
 }

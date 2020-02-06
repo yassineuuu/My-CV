@@ -10,7 +10,7 @@ html {
     line-height: 1.5;
     background: #F2F2F2;
     color: #323232;
-    
+
   }
   
   img {
@@ -42,6 +42,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;    
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 3508px;
     
   }
   .container{
@@ -203,4 +204,10 @@ html {
       margin-bottom: 16px;
     }
   }
+  @media only screen and (max-width:375px){
+    .container{
+      font-size: 25px;
+    }
+  }
+  
   
